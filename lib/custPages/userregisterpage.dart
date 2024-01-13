@@ -1,8 +1,8 @@
-import 'package:flutter/material.dart';
+import 'package: flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'package:bookbyte/backend/my_server_config.dart';
-import 'package:bookbyte/pages/userloginpage.dart';
+import 'classPages/my_server_config.dart';
+import 'custPages/userloginpage.dart';
 
 
 class RegisterPage extends StatefulWidget {
