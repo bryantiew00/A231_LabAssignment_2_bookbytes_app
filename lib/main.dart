@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:bookbyte_apps/viewPage/splashscreen.dart';
+import 'viewPage/splashscreen.dart';
 
-void main() => runApp(const MyApp());
+
+void main() {
+  runApp(const MyApp());
+}
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super (key: key);
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: '3Bs BookBytes Store',
-      theme: ThemeData(primarySwatch: Colors.deepPurple),
-      home: const SplashScreen(),
+    return const MaterialApp(
+      home: SplashScreen(),
     );
   }
 }
