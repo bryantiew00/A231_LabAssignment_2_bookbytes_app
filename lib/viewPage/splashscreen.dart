@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:bookbyte/classPage/userloginpage.dart';
+import 'classPages/userloginpage.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
