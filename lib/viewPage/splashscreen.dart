@@ -30,7 +30,7 @@ class SplashScreenState extends State<SplashScreen> {
             child: Column(
               mainAxisAlignment:MainAxisAlignment.center, 
               children: [
-                Image.asset('assets/images/books.jpg'),  
+                Image.asset('assets/books.jpg'),  
               const Text(
               'Welcome to 3B BookBytes!',
               style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
