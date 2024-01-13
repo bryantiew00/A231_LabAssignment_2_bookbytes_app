@@ -37,7 +37,7 @@ class _MainPageState extends State<MainPage> {
           title: const Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              CircleAvatar(backgroundImage: AssetImage('assets/images/books.jpg')),
+              CircleAvatar(backgroundImage: AssetImage('assets/profile.png')),
               Text(
                 "3Bs Bookbyte",
                 style: TextStyle(
