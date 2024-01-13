@@ -1,33 +1,32 @@
 class User {
-  String? user_id;
-  String? user_email;
-  String? user_name;
-  String? user_password;
-  String? user_datereg;
+  String? userId;
+  String? userEmail;
+  String? userName;
+  String? userPassword;
+  String? userRegDate;
 
-  User({
-    required this.user_id,
-    required this.user_name,
-    required this.user_email,
-    required this.user_password,
-    required this.user_datereg,
-  });
+  User(
+      {this.userId,
+      this.userEmail,
+      this.userName,
+      this.userPassword,
+      this.userRegDate});
 
   User.fromJson(Map<String, dynamic> json) {
-    user_id = json['userID'];
-    user_name = json['userName'];
-    user_email = json['userEmail'];
-    user_password = json['userPassword'];
-    user_datereg = json['userDateReg'];
+    userId = json['userId'];
+    userEmail = json['userEmail'];
+    userName = json['userName'];
+    userPassword = json['userPassword'];
+    userRegDate = json['userRegDate'];
   }
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = <String, dynamic>{};
-    data['userID'] = user_id;
-    data['userName'] = user_name;
-    data['userEmail'] = user_email;
-    data['userPassword'] = user_password;
-    data['userDateReg'] = user_datereg;
+    data['userid'] = userId;
+    data['useremail'] = userEmail;
+    data['username'] = userName;
+    data['userpassword'] = userPassword;
+    data['userdatereg'] = userRegDate;
     return data;
   }
 }
