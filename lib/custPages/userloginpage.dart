@@ -1,14 +1,13 @@
 // ignore_for_file: use_build_context_synchronously, avoid_print
 
 import 'dart:convert';
-import 'package:bookbyte/pages/userregisterpage.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:bookbyte/backend/my_server_config.dart';
-import 'package:bookbyte/buyer/user.dart';
-import 'package:bookbyte/pages/mainpage.dart';
-
+import 'classPages/my_server_config.dart';
+import 'classPages/user.dart';
+import 'custPages/mainpage.dart';
+import 'custPages/userregisterpage.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
