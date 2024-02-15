@@ -21,7 +21,6 @@ if ($conn->query($sqlinsert) === TRUE) {
 	sendJsonResponse($response);
 }
 
-
 function sendJsonResponse($sentArray)
 {
     header('Content-Type: application/json');
