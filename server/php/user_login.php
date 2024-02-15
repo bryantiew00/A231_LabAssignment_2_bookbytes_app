@@ -19,7 +19,7 @@ if ($result->num_rows > 0) {
         $userlist['user_id'] = $row['user_id'];
         $userlist['user_name'] = $row['user_name'];
         $userlist['user_email'] = $row['user_email'];
-        $userlist['user_pass'] = $_POST['user_pass'];
+        $userlist['user_pass'] = $row['user_pass'];
         $userlist['user_regdate'] = $row['user_regdate'];
     }
     $response = array('status' => 'success', 'data' => $userlist);
